@@ -1,6 +1,14 @@
-# Akita
+# Featuring Akita
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
+Featuring Akita tiene como objetivo enseñar Akita como biblioteca para el manejo de estado en Angular.
+El curso es practico y va directo a los temas usados en proyectos reales.
+En este repositorio se iran recopilando los ejemplos probados en las clases.
+
+## Roadmap del Curso
+    Comprender los conceptos basicos de la biblioteca
+       Store, Query, Entity Management, UI state, Transactions.
+    Usar Angular Material
+    Programas Test Automatizados
 
 ## Development server
 
