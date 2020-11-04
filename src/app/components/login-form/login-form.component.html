@@ -1,0 +1,17 @@
+<h4>Login Form</h4>
+
+<form>
+  <p>
+    <input [formControl]="emailControl" type="text" placeholder="email">
+  </p>
+  <p>
+    <input [formControl]="passwordControl" type="password" placeholder="password">
+  </p>
+  <button (click)="onSubmit()" [disabled]="!(notEmpty$ | async)">Entrar</button>
+</form>
+
+
+<hr>
+<h4>Estado</h4>
+{{email$ | async}}
+{{password$ | async}}

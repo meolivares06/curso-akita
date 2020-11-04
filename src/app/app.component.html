@@ -1,8 +1,15 @@
-<h4>Full state</h4>
-{{fullState$ | async | json}}
+<div class="container">
+  <div class="container__item">
+    <h4>Full state</h4>
+    {{fullState$ | async | json}}
 
-<h4>Solo token</h4>
-{{token$ | async | json}}
+    <h4>Solo token</h4>
+    {{token$ | async | json}}
 
-<h4>Computada (no existe realmente en el Store)</h4>
-{{isLoggedIn$ | async | json}}
+    <h4>Computada (no existe realmente en el Store)</h4>
+    {{isLoggedIn$ | async | json}}
+  </div>
+  <div class="container__item">
+    <app-login-form></app-login-form>
+  </div>
+</div>

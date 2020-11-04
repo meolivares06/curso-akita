@@ -1,0 +1,12 @@
+
+.container {
+  display: flex;
+}
+.container__item{
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+
+  text-align: center;
+}
